@@ -60,7 +60,7 @@ int contarAcertos(char tabuleiro[TAM][TAM]) {
 
 int main() {
     char jogador[TAM][TAM], computador[TAM][TAM];
-    int x, y, turno = 0;
+    int x, y;
 
     srand(time(NULL));
     inicializarTabuleiro(jogador, '~');
